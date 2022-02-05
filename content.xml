@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content
+  id="slayerdf_universal_transport"
+  name="Universal Transport"
+  description="Makes all transport ships to be able to transfer all types of wares (including solid and liquid)"
+  author="SlayerDF"
+  version="100"
+  date="2022-02-06"
+  save="false"
+>
+  <dependency version="420" />
+  <dependency id="ego_dlc_split" optional="true" version="100" />
+  <dependency id="ego_dlc_terran" optional="true" version="100" />
+</content>
