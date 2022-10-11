@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+  <replace sel="//macros/macro/properties/cargo/@tags">container liquid solid condensate</replace>
+</diff>

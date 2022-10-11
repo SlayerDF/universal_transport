@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+
+require_relative "./configure"
+
+game_path, * = ARGV
+
+game_path ||= "/mnt/c/Program Files (x86)/Steam/steamapps/common/X4 Foundations"
+
+raise "Invalid game path" unless File.exists? File.join(game_path, "version.dat")
+
+extract_catalogs(game_path, EXTRACT_DIR, filter_extensions: [".xml"])

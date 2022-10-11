@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content
+  id="slayerdf_universal_transport"
+  name="Universal Transport"
+  description="Makes all transport ships to be able to transfer all types of wares (including solid, liquid and condensate)&#13;&#10;&#13;&#10;Wanna build complex supply chains and you think that using mining ships to deliver ores and gas to other sectors kinda stupid? This mod solves this problem."
+  author="SlayerDF"
+  version="110"
+  date="2022-10-11"
+  save="false"
+>
+  <dependency version="500" />
+  <dependency id="ego_dlc_split" optional="true" name="Split Vendetta" />
+  <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity" />
+  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice" />
+  <dependency id="ws_1696862840" optional="true" name="Variety and Rebalance Overhaul" version="340" />
+</content>

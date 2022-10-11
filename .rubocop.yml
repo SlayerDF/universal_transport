@@ -1,0 +1,21 @@
+require:
+  - standard/cop/block_single_line_braces
+
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'dist/**/*'
+    - 'extracted/**/*'
+    - 'Gemfile'
+  DisplayCopNames: true
+  SuggestExtensions: false
+  TargetRubyVersion: 2.7
+
+Standard/BlockSingleLineBraces:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
